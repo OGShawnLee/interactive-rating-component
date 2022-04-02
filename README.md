@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [To be added](https://your-solution-url.com)
+- Solution URL: [Right here!](https://www.frontendmentor.io/solutions/animated-interactive-rating-component-svelte-ts-windicss-and-vite-HyHIJDSQq)
 - Live Site URL: [Deployed on Vercel](https://interactive-rating-component-wheat.vercel.app/)
 
 ## My process

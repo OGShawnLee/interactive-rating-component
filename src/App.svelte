@@ -17,8 +17,8 @@
 </script>
 
 <script lang="ts">
-  import iconStar from './assets/icon-star.svg';
-  import illustationThankYou from './assets/illustration-thank-you.svg';
+  import iconStar from '$assets/icon-star.svg';
+  import illustationThankYou from '$assets/illustration-thank-you.svg';
   import { fade } from 'svelte/transition';
 
   let rating: number | undefined;

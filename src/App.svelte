@@ -36,7 +36,7 @@
           {#each range(1, 6) as index}
             <RatingButton
               class={{
-                base: 'h-10 w-10 min-w-10 | flex items-center justify-center | rounded-full text-sm',
+                base: 'h-10 w-10 min-w-10 | grid place-content-center | rounded-full text-sm | sm:(h-12 min-w-12 w-12)',
                 selected: {
                   off: 'bg-slate-500/15 text-slate-500 | hover:(bg-slate-500 text-white)',
                   on: 'bg-orange text-white',

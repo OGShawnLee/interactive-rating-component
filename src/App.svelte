@@ -16,7 +16,7 @@
 <Rating as="main" class="overflow-hidden" let:rate let:form let:state>
   {#if state === 'IDLE'}
     <section
-      class="absolute over-center w-full max-w-xs sm:max-w-sm p-8 | bg-slate-800/80 rounded-2xl"
+      class="absolute position-center w-full max-w-xs sm:max-w-sm p-8 | bg-slate-800/80 rounded-2xl"
       transition:fade
     >
       <form class="flex flex-col gap-6" use:form>
@@ -56,7 +56,7 @@
     </section>
   {:else}
     <section
-      class="absolute over-center w-full max-w-xs sm:max-w-sm p-8 | bg-slate-800/80 rounded-2xl"
+      class="absolute position-center w-full max-w-xs sm:max-w-sm p-8 | bg-slate-800/80 rounded-2xl"
       transition:fade={{ delay: 300 }}
     >
       <div class="flex flex-col items-center gap-6">
@@ -78,7 +78,7 @@
 </Rating>
 
 <style>
-  .over-center {
+  .position-center {
     @apply top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2;
   }
 </style>

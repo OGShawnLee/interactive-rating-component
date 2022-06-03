@@ -1,8 +1,4 @@
 <script lang="ts" context="module">
-  function isNumber(value: unknown): value is number {
-    return typeof value === 'number';
-  }
-
   function range(start: number, end: number, step = 1): number[] {
     if (start + step >= end) return [start];
     return [start, ...range(start + step, end)];
@@ -19,6 +15,7 @@
 <script lang="ts">
   import { iStar, illustrationThankYou } from '$assets';
   import { fade } from 'svelte/transition';
+  import { isNumber } from 'malachite-ui/predicate';
 
   let rating: number | undefined;
   let state: 'idle' | 'submitted' = 'idle';

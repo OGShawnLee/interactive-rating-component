@@ -17,8 +17,7 @@
 </script>
 
 <script lang="ts">
-  import iconStar from '$assets/icon-star.svg';
-  import illustationThankYou from '$assets/illustration-thank-you.svg';
+  import { iStar, illustrationThankYou } from '$assets';
   import { fade } from 'svelte/transition';
 
   let rating: number | undefined;
@@ -44,7 +43,7 @@
         <div
           class="h-10 w-10 min-w-10 sm:(h-12 w-12 min-w-12) | grid place-content-center | bg-slate-500/15 rounded-full"
         >
-          <img src={iconStar} alt="" />
+          <img src={iStar} alt="" />
         </div>
         <div class="flex flex-col gap-3">
           <span class="text-2xl font-bold text-white">How did we do?</span>
@@ -80,7 +79,7 @@
       transition:fade={{ delay: 300 }}
     >
       <div class="flex flex-col items-center gap-6">
-        <img src={illustationThankYou} alt="" />
+        <img src={illustrationThankYou} alt="" />
         <div class="px-4 py-2 | bg-slate-500/15 rounded-full text-orange">
           <span> You selected out {rating} of 5</span>
         </div>

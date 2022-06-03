@@ -8,8 +8,8 @@ export default defineConfig({
   plugins: [svelte(), windicss()],
   resolve: {
     alias: {
-      $assets: resolve('src/assets'),
-      '$assets/*': resolve('src/assets/*'),
+      '@assets': resolve('src/assets'),
+      '@assets/*': resolve('src/assets/*'),
       '@components': resolve('src/components'),
       '@components/*': resolve('src/components/*'),
     },

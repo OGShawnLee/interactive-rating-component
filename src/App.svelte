@@ -7,7 +7,7 @@
 
 <script lang="ts">
   import { Rating, RatingButton } from '@components';
-  import { iStar, illustrationThankYou } from '$assets';
+  import { iStar, illustrationThankYou } from '@assets';
   import { fade } from 'svelte/transition';
 </script>
 

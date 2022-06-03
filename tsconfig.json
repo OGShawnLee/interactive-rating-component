@@ -16,7 +16,9 @@
     "checkJs": true,
     "paths": {
       "$assets": ["src/assets"],
-      "$assets/*": ["src/assets/*"]
+      "$assets/*": ["src/assets/*"],
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"]
     }
   },
   "include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
